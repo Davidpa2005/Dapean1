@@ -1,0 +1,64 @@
+body {
+	font-family: monospace;
+	font-size: 14px;
+
+}
+
+#menu li {
+	list-style: none;
+}
+
+#menu ul a:hover {
+	color: yellow;
+}
+
+#send {
+	width: 20%;
+	height: 30px;
+}
+
+#table_class {
+	text-align: center;
+	width: 50%;
+	height: 200px;
+}
+
+#table_rent {
+	text-align: center;
+	width: 50%;
+	height: 100px;
+}
+
+#body_of_web table tr>*{
+	border: 1px solid #666;
+	padding: 7px 12px;
+
+}
+
+
+#basket {
+	width: 30%;
+	height: 40%;
+}
+
+
+#skate {
+	width: 30%;
+	height: 40%;
+}
+
+footer {
+	background-color: #AEBABB;
+	border: 3px solid black;
+
+}
+
+table {
+	padding: 10px;
+	text-align: center;
+}
+
+#logo {
+	width: 20%;
+	height: 20%;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Dapean1/Reservas</title>
+		<link rel="stylesheet" type="text/css" href="Dapean1_css.css">
+	
+	</head>
+
+	<body background="fondo.png">
+
+	<body>
+
+		<header id="menu" align="center">
+
+			<img src="logo.png" id="logo">
+
+			<h1 >Dapean 1</h1>
+
+			<ul>
+				<li><a href="Inicio.html">Inicio</a></li>
+				<li><a href="Clases.html">Clases</a></li>
+				<li><a href="Reservas.html">Reservas</a></li>
+				<li><a href="Donde_Estamos.html">Donde Estamos</a></li>
+				<li><a href="Fotos.html">Fotos</a></li>
+			</ul>
+				
+
+		</header>
+
+		<div id = "body_of_web" align="center">
+			<form action="Reservas_Recibidas.html" method="POST">
+				<br>
+				<label for="reservar">¿Que desa reservar?</label>
+				<select id="reservar" name="reservar">
+					<option>Clases</option>
+					<option>Alquilar</option>
+				</select>
+				
+				<br>
+				<br>
+				
+				<h1>Alquilar</h1>
+				<br>
+				
+				<label>Si desea <strong>alquilar</strong> una pista introduce si es con entrenador o no</label>
+				<br>
+				<br>
+				<input type="radio" name="coach" value="Con Entrenador">Con Entrenador
+				<input type="radio" name="coach" value="Sin Entrenador">Sin Entrenador
+				<br>
+				<br>
+
+				
+
+				<label for="numberOfPersons">Si desea <strong>alquilar</strong> una pista con entrenador pon el numero de personas</label>
+				<label>2</label>
+				<input type="range" min="2" max="5" id="numberOfPersons">
+				<label>5</label>
+				<br>
+				<br>
+
+				<label for="hourOfTraining">Si va a <strong>alquilar</strong>  una pista introduzca las horas deseadas</label>
+				<label>1</label>
+				<input type="range" id="hourOfTraining" min="1" max="5" step="1" >
+				<label>5</label>
+				<br>
+				<br>
+				<label>Eliga una Hora para <strong>alquilar</strong> una pista</label>
+				<select>
+					<option value="09:00">09:00</option>
+					<option value="10:00">10:00</option>
+					<option value="11:00">11:00</option>
+					<option value="12:00">12:00</option>
+					<option value="13:00">13:00</option>
+					<option value="14:00">14:00</option>
+					<option value="15:00">15:00</option>
+					<option value="17:00">17:00</option>
+					<option value="18:00">18:00</option>
+					<option value="19:00">19:00</option>
+					<option value="20:00">20:00</option>
+					<option value="21:00">21:00</option>
+				</select>
+				<br>
+				<br>
+
+				<h1>Clases</h1>
+				<br>
+
+				<label for="hour">Para coger una <strong>clase</strong> eliga la hora para entrenar</label>
+				<select name="hour" id="hour">
+					<option value="09:00">09:00</option>
+					<option value="10:00">10:00</option>
+					<option value="11:00">11:00</option>
+					<option value="12:00">12:00</option>
+					<option value="16:00">16:00</option>
+					<option value="17.00">17:00</option>
+					<option value="18:00">18:00</option>
+				</select>
+				<br>
+				<br>
+				<br>
+
+				<label>Escoga en numero de personas que asisten a la <strong>clase</strong></label>
+				<label>1</label>
+				<input type="range" name="personas" id="personas" max="3" min="1">
+				<label>3</label>
+				<br>
+				<br>
+				<br>
+
+
+				<input type="submit" id="send" value="Enviar">
+
+			</form>
+			
+		</div>
+		
+		<br>
+		<br>
+
+		<footer align="center">
+			<br>
+			<a href="https://www.instagram.com/" target="_blanc"><img src="Icono_Instagram.png"></a>
+			<a href="https://es-es.facebook.com/pages/category/Burger-Restaurant/Melmak-Villaviciosa-654537747934502/"><img src="Icono_Facebook.png"></a>
+			<p>Si desea dejar alguna duda no dude en llamar al 1111111 o </p>
+			<p>escribanos en hhhhhh@gmail.com</p>
+			<br>
+		</footer>
+
+	</body>
+	
+</html>
